@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name                          = "LyPythonToolbox",                              # 包名
-    version                       = "0.1.2",                                        # 版本号
+    version                       = "0.1.4",                                        # 版本号
     author                        = "Yue Lin",                                      # 作者名字
     author_email                  = "linyue3h1@gmail.com",                          # 作者邮箱
     description                   = "Ly's personal python toolbox.",                # 简短描述

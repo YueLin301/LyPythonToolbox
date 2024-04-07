@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: LyPythonToolbox
-Version: 0.1.2
+Version: 0.1.4
 Summary: Ly's personal python toolbox.
 Home-page: https://github.com/YueLin301/LyPythonToolbox
 Author: Yue Lin
@@ -13,5 +13,19 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-See [my blog](https://yuelin301.github.io/posts/Python-Toolbox).
+See [my blog](https://yuelin301.github.io/posts/LyPythonToolbox).
+
+Memo:
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+```bash
+twine upload dist/*
+```
+
+```bash
+pip install --upgrade LyPythonToolbox
+```
 
